@@ -3,10 +3,10 @@ from pdf_export import export_invoice_pdf
 
 def main():
     inv = Invoice(
-        shop_name="Steve's Auto Repair",
-        shop_address="917 US-117 South, Goldsboro, NC 27530",
-        shop_phone="919-330-4110",
-        customer_name=input("Customer name: ").strip(),
+    shop_name="Sample Auto Repair",
+    shop_address="123 Main Street, Anytown, USA",
+    shop_phone="(555) 123-4567",
+    customer_name=input("Customer name: ").strip(),
         vehicle=input("Vehicle (e.g., 2012 Jeep Compass): ").strip(),
         tax_rate=0.0  # change to 0.07 if you want 7% tax
     )
